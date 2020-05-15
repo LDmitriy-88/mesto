@@ -1,0 +1,13 @@
+.profile__name{
+    height: min-content;
+    margin: 0 0 0 4%;
+    padding: 0;
+    min-width: 65%;
+}
+
+@media screen and (max-width: 740px) {
+    .profile__name{
+        width: 90%;
+        margin: 4% 0 0 4%;
+        justify-content: center;
+    }}

@@ -1,0 +1,10 @@
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1184px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: min-content;
+  }

@@ -1,0 +1,22 @@
+.profile__button{
+display: flex;
+min-width: 17%;
+min-height: 50px;
+align-self: center;
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 2px;
+background-color: black;
+}
+
+.profile__button:hover{
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 600px) {
+.profile__button{
+  width: 88.11%;
+  margin-top: 12%;
+  margin-bottom: 12%;
+      }
+}

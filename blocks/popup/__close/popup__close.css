@@ -1,0 +1,15 @@
+.popup__close{
+    display: flex;
+    align-items: flex-start;
+    width: min-content;
+    height: min-content;
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: 98%;
+    margin-top: -51px;
+    padding: 0;
+    border: none;
+}
+
+.popup__close:hover{
+    opacity: 0.6;
+}

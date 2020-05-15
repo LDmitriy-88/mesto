@@ -1,0 +1,17 @@
+.profile__container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    padding:0;
+    margin: 0 auto 0 auto;
+    max-width: 882px;
+    height: max-content;
+    width: 100%;
+  }
+
+  
+@media screen and (max-width: 600px) {
+  .profile__container{
+    width: 100%;
+    flex-direction: column;
+  }}

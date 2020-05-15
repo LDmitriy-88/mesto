@@ -1,0 +1,18 @@
+@import url(./__photo/element__photo.css);
+@import url(./__description/element__description.css);
+@import url(./__title/element__title.css);
+@import url(./__like/element__like.css);
+
+.element{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 361px;
+    width: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+}
