@@ -8,9 +8,7 @@
 </head>
 <body class="page">
   <header class="header">
-    <div class="header__container">
       <div class="header__logo"></div>
-    </div>
   </header>
   <section class="profile">
     <div class="profile__container">
@@ -18,33 +16,30 @@
       <div class="profile__name">
         <div class="profile__title-container">
           <h1 class="profile__title">Жак-Ив Кусто</h1>
-          <div class="profile__edit-button">
-            <div class="profile__edit-mark"></div>
-          </div>
+          <button type="button" class="profile__edit-button">
+          </button>
         </div>
         <p class="profile__subtitle">Исследователь океана</p>
       </div>
       
     </div>
-    <div class="profile__button">
-      <div class="profile__plus"></div>
-    </div>
+    <button type="button" class="profile__button">
+    </button>
   </section>
 
 
-  <section class="popup">
+  <section class="popup popup_closed">
     <div class="popup__container">
-    <div class="popup__close">
-      <div class="popup__close-icon"></div>
-    </div>
-      <div class="popup__form">
+    <button type="reset" class="popup__close">
+    </button>
+      <form name="popupForm" action="#" method="post" class="popup__form">
         <h2 class="popup__title">Редактировать профиль</h2>
         <ul class="popup__text-field">
-          <li class="popup__text"><input type="text" name="name" class="popup__info name" value="Жак-Ив Кусто"></li>
-          <li class="popup__text"><input type="text" name="job" class="popup__info descript" value="Исследователь океана"></li>
+          <li class="popup__text"><input type="text" name="name" class="popup__info popup__info_name" value="Жак-Ив Кусто"></li>
+          <li class="popup__text"><input type="text" name="job" class="popup__info popup__info_descript" value="Исследователь океана"></li>
         </ul>
-        <input type="submit" class="popup__submit" value="Сохранить">
-      </div>
+        <button type="submit" class="popup__submit" value="Сохранить">Сохранить</button>
+      </form>
     
     </div>
   </section>
@@ -53,42 +48,42 @@
         <img src="./images/albrus.png" class="element__photo" alt="Эльбрус">
         <div class="element__description">
           <h2 class="element__title">Эльбрус</h2>
-          <div class="element__like"></div>
+          <button type="button" class="element__like"></button>
         </div>
       </div>  
       <div class="element">
         <img src="./images/dombai.jpg" class="element__photo" alt="Домбай">
         <div class="element__description">
           <h2 class="element__title">Домбай</h2>
-          <div class="element__like"></div>
+          <button type="button" class="element__like"></button>
         </div>
       </div>  
       <div class="element">
         <img src="./images/kara4aevsk.jpg" class="element__photo" alt="Карачаевск">
         <div class="element__description">
           <h2 class="element__title">Карачаевск</h2>
-          <div class="element__like"></div>
+          <button type="button" class="element__like"></button>
         </div>
       </div>  
       <div class="element">
         <img src="./images/karadag.jpg" class="element__photo" alt="Карадаг">
         <div class="element__description">
           <h2 class="element__title">Карадаг</h2>
-          <div class="element__like"></div>
+          <button type="button" class="element__like"></button>
         </div>
       </div>  
       <div class="element">
         <img src="./images/onega.jfif" class="element__photo" alt="Онега">
         <div class="element__description">
           <h2 class="element__title">Онега</h2>
-          <div class="element__like"></div>
+          <button type="button" class="element__like"></button>
         </div>
       </div> 
       <div class="element">
         <img src="./images/vladivostok.jfif" class="element__photo" alt="Владивосток">
         <div class="element__description">
           <h2 class="element__title">Владивосток</h2>
-          <div class="element__like"></div>
+          <button type="button" class="element__like"></button>
         </div>
       </div>  
   </section>

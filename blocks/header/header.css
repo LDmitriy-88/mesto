@@ -2,17 +2,22 @@
 @import url(./__logo/header__logo.css);
 
 .header {
-    margin: 28px auto 0 auto;
+    margin: 5% auto 0 auto;
     width: 100%;
     max-width: 882px;
-    min-height: 74px;
+    padding-bottom: 4%;
     opacity: 0.7;
     border-bottom: 1px solid #545454;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: min-content;
   }  
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
   .header{
-    width: 93.7%;
-    min-height: 54px;
+    margin: 10% 0 0 -6.4%;
+    width: 113%;
+    padding-bottom: 7.6%;
     }
   }

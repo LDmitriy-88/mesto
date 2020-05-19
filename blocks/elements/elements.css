@@ -9,9 +9,3 @@
     grid-gap: 16px;
 } 
 
-@media screen and (max-width: 600px) {
-    .elements{
-      width: 88.11%;
-      margin: auto;
-      }
-    }
