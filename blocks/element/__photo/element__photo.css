@@ -1,5 +1,6 @@
 .element__photo{
-    width: 100%;
-    height: 78.11%;
+    background-size: cover;
     max-height: 282px;
+    width: auto;
+    object-fit: cover;
 }

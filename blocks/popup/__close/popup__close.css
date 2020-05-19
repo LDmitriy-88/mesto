@@ -1,15 +1,22 @@
 .popup__close{
     display: flex;
     align-items: flex-start;
-    width: min-content;
-    height: min-content;
     background-color: rgba(0, 0, 0, 0);
     margin-left: 98%;
     margin-top: -51px;
     padding: 0;
     border: none;
+    width: 45px;
+    height: 45px;
+    background-image: url(../../../images/close-icon.svg);
+    transition: opacity 1s ease;
 }
 
 .popup__close:hover{
     opacity: 0.6;
 }
+
+@media screen and (max-width: 600px) {
+    .popup__close {
+        margin: -51px 1% 0 auto;
+      }}
