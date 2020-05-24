@@ -29,6 +29,7 @@ function formSubmitHandler (evt) {
 
     profileTitle.textContent = popupName.value;
     profileSubtitle.textContent = popupDescript.value;
+
     closeForm()
     popupName.value = '';
     popupDescript.value = '';
