@@ -1,5 +1,6 @@
 .page {
     max-width: 882px;
+    min-width: 250px;
     width: 88.11%;
     margin: auto;
     font-family: 'Inter', Arial, sans-serif;

@@ -1,18 +1,18 @@
 .profile__title{
-    width: max-content;
-    height: min-content;
-    font-weight: 500;
-    font-size: 42px;
-    font-style: normal;
-    align-self: center;
-    line-height: 56px;
-    color: #FFFFFF;
-    text-overflow: ellipsis; 
-    max-width: 80%; 
-    overflow: hidden; 
-    white-space: nowrap;
-    margin: 0;
-    padding: 0;
+  width: max-content;
+  height: min-content;
+  font-weight: 500;
+  font-size: 42px;
+  font-style: normal;
+  align-self: center;
+  line-height: 56px;
+  color: #FFFFFF;
+  text-overflow: ellipsis;
+  max-width: 80%;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
   }
 
 

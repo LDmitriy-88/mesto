@@ -24,18 +24,17 @@ function closeForm(){
     edit.classList.remove('popup_opened');
     }
 
-editButton.addEventListener('click', editForm);
-editClose.addEventListener('click', closeForm);
-
 function formSubmitHandler (evt) {
     evt.preventDefault(); 
 
     profileTitle.textContent = popupName.value;
     profileSubtitle.textContent = popupDescript.value;
-
+    closeForm()
     popupName.value = '';
     popupDescript.value = '';
-    closeForm()
+    
 }
 
+editButton.addEventListener('click', editForm);
+editClose.addEventListener('click', closeForm);
 formElement.addEventListener('submit', formSubmitHandler);
