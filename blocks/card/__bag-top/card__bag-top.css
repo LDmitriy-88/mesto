@@ -1,0 +1,7 @@
+.card__bag-top{
+    width: 19px;
+    background-position: center;
+    height: 4px;
+    background-repeat: no-repeat;
+    background-image: url(../../../images/bag-top.svg);
+}

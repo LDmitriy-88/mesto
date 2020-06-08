@@ -1,0 +1,22 @@
+@import url(./__close/addform__close.css);
+@import url(./_opened/addform_opened.css);
+@import url(./_closed/addform_closed.css);
+@import url(./__container/addform__container.css);
+@import url(./__form/addform__form.css);
+@import url(./__title/addform__title.css);
+@import url(./__text-field/addform__text-field.css);
+@import url(./__text/addform__text.css);
+@import url(./__info/addform__info.css);
+@import url(./__info/_name/addform__info_name.css);
+@import url(./__info/_descript/addform__info_descript.css);
+@import url(./__submit/addform__submit.css);
+
+.addform{
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100vw;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.5);
+   z-index: 1;
+}

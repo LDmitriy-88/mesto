@@ -1,0 +1,16 @@
+.image__container{
+    max-width: 850px;
+    height: min-content;
+    width: 75vh;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 16%);
+    background: none;
+}
+
+@media screen and (max-width: 600px) {
+    .image__container{
+      width: 50vh;
+      }
+    }

@@ -1,0 +1,7 @@
+.card__bag-body{
+    width: 19px;
+    height: 13px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../../../images/bag.svg);
+}

@@ -6,7 +6,7 @@
   <title>Места России</title>
   <link rel="stylesheet" href="./styles/index.css">
 </head>
-<body class="page">
+<body onload="" class="page">
   <header class="header">
       <div class="header__logo"></div>
   </header>
@@ -40,58 +40,60 @@
         </ul>
         <button type="submit" class="popup__submit" value="Сохранить">Сохранить</button>
       </form>
-    
     </div>
   </section>
-  <section class="elements">
-      <div class="element">
-        <img src="./images/albrus.png" class="element__photo" alt="Эльбрус">
-        <div class="element__description">
-          <h2 class="element__title">Эльбрус</h2>
-          <button type="button" class="element__like"></button>
-        </div>
-      </div>  
-      <div class="element">
-        <img src="./images/dombai.jpg" class="element__photo" alt="Домбай">
-        <div class="element__description">
-          <h2 class="element__title">Домбай</h2>
-          <button type="button" class="element__like"></button>
-        </div>
-      </div>  
-      <div class="element">
-        <img src="./images/kara4aevsk.jpg" class="element__photo" alt="Карачаевск">
-        <div class="element__description">
-          <h2 class="element__title">Карачаевск</h2>
-          <button type="button" class="element__like"></button>
-        </div>
-      </div>  
-      <div class="element">
-        <img src="./images/karadag.jpg" class="element__photo" alt="Карадаг">
-        <div class="element__description">
-          <h2 class="element__title">Карадаг</h2>
-          <button type="button" class="element__like"></button>
-        </div>
-      </div>  
-      <div class="element">
-        <img src="./images/onega.jfif" class="element__photo" alt="Онега">
-        <div class="element__description">
-          <h2 class="element__title">Онега</h2>
-          <button type="button" class="element__like"></button>
-        </div>
-      </div> 
-      <div class="element">
-        <img src="./images/vladivostok.jfif" class="element__photo" alt="Владивосток">
-        <div class="element__description">
-          <h2 class="element__title">Владивосток</h2>
-          <button type="button" class="element__like"></button>
-        </div>
-      </div>  
+
+
+  <section class="image image_closed">
+    <div class="image__container">
+      <button type="reset" class="image__close"></button>
+    <img src="./images/karadag.jpg" class="image__big" alt="Карадаг">
+    <h2 class="image__title">Карадаг</h2>
+    </div>
+  </section>-->
+
+
+  <section class="addform addform_closed">
+    <div class="addform__container">
+    <button type="reset" class="addform__close">
+    </button>
+      <div class="addform__form">
+        <h2 class="addform__title">Новое место</h2>
+        <ul class="addform__text-field">
+          <li class="addform__text"><input type="text" name="name" class="addform__info addform__info_name" placeholder="Название"></li>
+          <li class="addform__text"><input type="text" name="job" class="addform__info addform__info_descript" placeholder="Ссылка на картинку"></li>
+        </ul>
+        <button type="submit" class="addform__submit" value="Создать">Добавить</button>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="cards">
+     
   </section>
   
-  <footer class="footer">
-    
+
+
+  <template id="card-template">
+    <div class="card">
+      <img src="./images/karadag.jpg" class="card__photo" alt="Карадаг">
+      <button class="card__bag">
+        <div class="card__bag-top"></div>
+        <div class="card__bag-body"></div>
+      </button>
+      <div class="card__description">
+        <h2 class="card__title">Карадаг</h2>
+        <button type="button" class="card__like"></button>
+      </div>
+    </div>  
+  </template>
+
+
+ <footer class="footer">
     <p class="footer__author">&#169; 2020.D_Levanovskiy</p>
   </footer>
   <script src="./script/script.js"></script>
 </body>
 </html>
+

@@ -1,0 +1,11 @@
+.element-bag{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width: 40px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 2;
+}

@@ -1,0 +1,13 @@
+.card__bag{
+    position: absolute;
+    top: 5.5%;
+    right: 5%;
+    width: 19px;
+    height: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 2;
+    border: none;
+    background-color: transparent;
+}
