@@ -6,7 +6,7 @@ const edit = page.querySelector('.popup');
 const editClose = edit.querySelector('.popup__close');
 const profileTitle = page.querySelector('.profile__title');
 const profileSubtitle = page.querySelector('.profile__subtitle');
-const formElement = page.querySelector('.popup__form');
+const forms = page.querySelector('.popup__window');
 const popupName = page.querySelector('.popup__info_name');
 const popupDescript = page.querySelector('.popup__info_descript');
 const addForm = page.querySelector('.addform');
@@ -42,6 +42,7 @@ const initialCards = [
       link: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/baikal.jpg'
   }];
 
+forms
 
   initialCards.forEach(function (item) {
     addCard(item.link, item.name);
@@ -55,6 +56,7 @@ const initialCards = [
 
       partCard.querySelector('.card__photo').src = a;
       partCard.querySelector('.card__title').textContent = b;
+      partCard.querySelector('.card__photo').alt = b;
 
       partCard.querySelector('.card__like').addEventListener('click', function (evt) {
       evt.target.classList.toggle('card__like_active');
@@ -125,8 +127,27 @@ const initialCards = [
     
   }
 
+
+  page.addEventListener('keydown', function (evt) {
+    if (evt.key === 'Escape') {
+      closeForm();
+    }
+  });
+
+
+
+  page.addEventListener('mousedown', function (e) {
+    if (e.target === edit) {
+    closeForm();}
+    if (e.target === addForm) {
+      closeForm();}
+    if (e.target === image) {
+      closeForm();}
+  });
+
+
   editButton.addEventListener('click', editForm);
-  formElement.addEventListener('submit', formSubmitHandler);
+  forms.addEventListener('submit', formSubmitHandler);
   profileButton.addEventListener('click', openAddForm);
   editClose.addEventListener('click', closeForm);
   addFormClose.addEventListener('click', closeForm);

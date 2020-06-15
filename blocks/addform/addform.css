@@ -1,13 +1,12 @@
 @import url(./__close/addform__close.css);
 @import url(./__container/addform__container.css);
-@import url(./__form/addform__form.css);
+@import url(./__window/addform__window.css);
 @import url(./__title/addform__title.css);
 @import url(./__text-field/addform__text-field.css);
 @import url(./__text/addform__text.css);
 @import url(./__info/addform__info.css);
 @import url(./__info/_name/addform__info_name.css);
 @import url(./__info/_descript/addform__info_descript.css);
-@import url(./__submit/addform__submit.css);
 
 .addform{
    position: fixed;
