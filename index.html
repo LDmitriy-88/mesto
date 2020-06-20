@@ -25,7 +25,10 @@
     <button type="button" class="profile__button">
     </button>
   </section>
-  <section class=" popup popup_closed">
+  <section class="cards">  
+  </section>
+
+  <section class="popup popup_closed">
     <div class="popup__container">
     <button type="reset" class="popup__close">
     </button>
@@ -36,24 +39,26 @@
           <li class="popup__text">
           <label class="popup__formfield">
             <input type="text" name="name" class="popup__input popup__info popup__info_name" id="name-input" value="Жак-Ив Кусто" minlength="2" maxlength="40" required>
-            <span class='popup__input-error' id='name-input-error'></span>
+            <span class='popup__error' id='name-input-error'></span>
           </label>
           </li>
           <li class="popup__text">
             <label class="popup__formfield">
             <input type="text" name="job" class="popup__input popup__info popup__info_descript" id="job-input" value="Исследователь океана" minlength="2" maxlength="200" required>
-            <span class='popup__input-error' id='job-input-error'></span>
+            <span class='popup__error' id='job-input-error'></span>
             </label>
           </li>
         </ul>
-        <button type="submit" class="popup__submit" value="Сохранить">Сохранить</button>
+        <button type="submit" class="popup__submit popup__button" value="Сохранить">Сохранить</button>
         </fieldset>
       </form>
     </div>
   </section>
-  <section class=" addform popup_closed">
+
+
+  <section class="addform popup_closed">
     <div class="addform__container" > 
-    <button type="reset" class="addform__close">
+    <button type="reset" class="popup__close addform__close">
     </button>
       <form class="popup__form addform__window" action="#" method="post" onsubmit="return false" novalidate>
         <fieldset class="popup__formset">
@@ -61,31 +66,34 @@
         <ul class="addform__text-field">
           <li class="addform__text" >
             <label class="popup__formfield">
-              <input type="text" name="title" class="popup__input addform__info addform__info_name" id="title-input" placeholder="Название" minlength="1" maxlength="30" required>
-              <span class='popup__input-error' id='title-input-error'></span>
+              <input type="text" name="title" class="popup__input addform__info addform__name" id="title-input" placeholder="Название" minlength="1" maxlength="30" required>
+              <span class='popup__error' id='title-input-error'></span>
             </label>
           </li>
           <li class="addform__text" >
             <label class="popup__formfield">
-              <input type="url" name="url" class="popup__input addform__info addform__info_descript" id="url-input" placeholder="Ссылка на картинку" required>
-              <span class='popup__input-error' id='url-input-error'></span>
+              <input type="url" name="url" class="popup__input addform__info addform__descript" id="url-input" placeholder="Ссылка на картинку" required>
+              <span class='popup__error' id='url-input-error'></span>
             </label>
           </li>
         </ul>
-        <button type="submit" class="popup__submit addform__submit" value="Создать">Добавить</button>
+        <button type="submit" class="popup__submit addform__submit popup__button" value="Создать">Добавить</button>
       </fieldset>
       </form> 
     </div>
   </section>
-  <section class="image popup_closed">
+  <section class="popup image popup_closed">
     <div class="image__container">
-      <button type="reset" class="image__close"></button>
+      <button type="reset" class="popup__close image__close"></button>
     <img src="./images/karadag.jpg" class="image__big" alt="Карадаг">
     <h2 class="image__title">Карадаг</h2>
     </div>
   </section>
-  <section class="cards">  
-  </section>
+
+
+
+
+
   <template id="card-template">
     <div class="card">
       <img src="./images/karadag.jpg" class="card__photo" alt="Карадаг">

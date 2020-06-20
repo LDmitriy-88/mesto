@@ -17,7 +17,7 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
     .image__close {
         margin: -51px 1% 0 auto;
       }}
